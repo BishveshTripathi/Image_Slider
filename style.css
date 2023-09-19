@@ -1,0 +1,30 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-navigation {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel-navigation button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
